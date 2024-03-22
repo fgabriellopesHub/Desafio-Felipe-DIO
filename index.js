@@ -1,1 +1,2 @@
-console.log("Olá mundão")
+let testeGitHub = "Primeiro teste"
+console.log(testeGitHub)
