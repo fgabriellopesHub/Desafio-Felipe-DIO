@@ -1,19 +1,18 @@
-let nomeDoHeroi = "Bigodinho"
-let niveisDoHeroi = [1000, 1001, 2000,2001, 5000, 5001, 7000, 7001, 8000, 8001, 9000, 9001, 10000, 10001]
+let nomeDoHeroi = "Astro"
+let nivelDoHeroi = 10001
+let experienciaDoHeroi = [1000, 1001, 2000, 2001, 5000, 5001, 7000, 7001, 8000, 8001, 9000, 9001, 10000, 10001]
 let ranking = [
     "Ferro",
     "Bronze",
+    "Prata",
     "Ouro",
     "Platina",
     "Ascendente",
-    "Imortal"
+    "Imortal",
+    "Radiante",
 ]
-
-switch(1000,10001){
-    case 1000:
-        console.log("O herói de nome " + nomeDoHeroi + " está no ranking " + ranking[0])
-        break
-        case 1001>=2000:
-            console.log("O herói de nome " + nomeDoHeroi + " está no ranking " + ranking[1])
-       
+do {
+console.log(nivelDoHeroi -= 10002)
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + ranking[7]+ "!")
 }
+while(experienciaDoHeroi >= 10002)
